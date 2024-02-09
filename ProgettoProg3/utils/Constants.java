@@ -225,11 +225,11 @@ public class Constants {
 
             switch (enemyType) {
                 case NIGHT_BORNE:
-                    return 0;
-                case HELL_BOUND:
-                    return 0;
-                case GHOST:
                     return 20;
+                case HELL_BOUND:
+                    return 5;
+                case GHOST:
+                    return 15;
                 default:
                     return 0;
             }
