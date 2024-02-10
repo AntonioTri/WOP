@@ -228,8 +228,6 @@ public class ObjectManager {
         c.setAnimation(true);
 
         CannonBall cannonBall = (CannonBall)cloningfactory.getClone(c.getCannonBall());
-        //adjustCannonBall(cannonBall, c);
-        //!!QUA PROVIAMO AD AGGIUNGERE UN PROTOTYPE
         cannonBalls.add(cannonBall);
 
     }
